@@ -1,0 +1,57 @@
+body {
+  background-image: url("./image/wxxnze.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 100%;
+
+}
+.todo_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+.todo_container input {
+  font-size: 2em;
+  width: 50vw;
+}
+
+.todo_item {
+  display: grid;
+  grid-template-columns: 30vw 10vw 10vw;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.todo_item span {
+  font-size: 2em;
+}
+
+button {
+  font-size: 1em;
+}
+
+@media(max-width:360px){
+  .todo_container input {
+    font-size: 1em;
+
+  }
+  
+  .todo_item {
+    display: grid;
+    grid-template-columns: 30vw 10vw 10vw;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .todo_item span {
+    font-size: 1em;
+  }
+  button {
+    font-size: 0.5em;
+  }
+
+}
+  
